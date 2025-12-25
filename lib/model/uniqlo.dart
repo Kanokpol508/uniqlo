@@ -1,69 +1,138 @@
+class Increment {
+  String name;
+  int price;
+  String unit;
+  Increment({required this.name, required this.price, required this.unit});
+}
+
 class Uniqlo {
   String imgUrl;
   String imgTitle;
+  String description;
+  List<Increment> increment;
 
-  Uniqlo(this.imgUrl,this.imgTitle);
+  Uniqlo(this.imgUrl, this.imgTitle, this.description, this.increment);
 
   static List<Uniqlo> samples = [
     Uniqlo(
       'assets/images/uniqlo1.webp',
-      'Basil Lemon Cooler',
+      'เสื้อ League of Legends',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo2.png',
-      'Basil Lemon Cooler',
+      'เสื้อไอติมPikachu',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo3.webp',
-      'Basil Lemon Cooler',
+      'เสื้อดำ คำF',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo4.png',
-      'Basil Lemon Cooler',
+      'เสื้อเขียวมัจฉะ',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo5.png',
-          'Basil Lemon Cooler',
+      'เสื้อลายหุ่นยนต์',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo6.jpg',
-      'Basil Lemon Cooler',
+      'เสื้อแผนที่ CEBU',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo7.jpg',
-      'Basil Lemon Cooler',
+      'เสื้อพื้นๆชิวๆ',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo8.webp',
-      'Basil Lemon Cooler',
+      'เสื้อ SWE',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo9.webp',
-          'Basil Lemon Cooler',
+      'เสื้อขาวเทสดี',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo10.webp',
-      'Basil Lemon Cooler',
+      'เสื้อขาวเทสดีV2',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo11.png',
-      'Basil Lemon Cooler',
+      'เสื้อขาวลายดอกไม้',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo12.webp',
-      'Basil Lemon Cooler',
+      'เสื้อไจแอ้น',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo13.png',
-      'Basil Lemon Cooler',
+      'เสื้อโดเรม่อน',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo14.png',
-      'Basil Lemon Cooler',
+      'เสื้อลาบูบู้',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     ),
     Uniqlo(
       'assets/images/uniqlo15.png',
-      'Basil Lemon Cooler',
+      'เสื้อน้ำตาลพื้นๆ',
+      'เสื้อโคตรสวย ราคาโคตรดีย์',
+      [
+        Increment(name: 'Cost', price: 250, unit: 'Baht')
+      ],
     )
   ];
 }
